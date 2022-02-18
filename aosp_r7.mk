@@ -21,6 +21,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 ## Inherit from r7 device
 $(call inherit-product, device/samsung/r7/device.mk)
 
+## S Pen
+TARGET_HAVE_SPEN := true
+
 ## Boot Animation
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
