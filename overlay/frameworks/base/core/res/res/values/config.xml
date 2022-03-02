@@ -41,14 +41,7 @@
 
          @see https://www.w3.org/TR/SVG/paths.html#PathData
          -->
-    <string translatable="false" name="config_mainBuiltInDisplayCutout">M 0,0 H -149 V 116 H 0 V 0 Z @right</string>
-
-    <!-- Indicates whether device has a power button fingerprint sensor. -->
-    <bool name="config_is_powerbutton_fps">true</bool>
-
-    <!-- Specify if the fingerprint hardware support gestures-->
-    <bool name="config_fingerprintSupportsGestures">true</bool>
-
+    <string name="config_mainBuiltInDisplayCutout">M 0,0 M 0,11.80952380952381 a 10.28571428571429,10.28571428571429 0 1,0 0,20.57142857142857 a 10.28571428571429,10.28571428571429 0 1,0 0,-20.57142857142857 Z @dp</string>
     <!-- Enable system navigation keys. -->
     <bool name="config_supportSystemNavigationKeys">true</bool>
 </resources>

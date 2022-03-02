@@ -15,17 +15,13 @@
 #
 
 # Inherit from the common tree
-$(call inherit-product, device/samsung/exynos9820-common/common.mk)
+$(call inherit-product, device/samsung/exynos9810-common/common.mk)
 
 # Inherit proprietary files
-$(call inherit-product, vendor/samsung/beyond0lte/beyond0lte-vendor.mk)
+$(call inherit-product, vendor/samsung/r7/r7-vendor.mk)
 
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
-
-# Fingerprint Gestures
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/keylayout/uinput-sec-fp.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-sec-fp.kl
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay

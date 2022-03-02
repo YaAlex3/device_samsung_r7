@@ -18,15 +18,12 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-## Product API level
-$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
-
-## Inherit from beyond0lte device
-$(call inherit-product, device/samsung/beyond0lte/device.mk)
+## Inherit from r7 device
+$(call inherit-product, device/samsung/r7/device.mk)
 
 ## Boot Animation
 TARGET_BOOTANIMATION_HALF_RES := true
-TARGET_SCREEN_HEIGHT := 2280
+TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 ## Inherit some common Lineage stuff
@@ -36,10 +33,10 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_NAME := lineage_beyond0lte
-PRODUCT_DEVICE := beyond0lte
+PRODUCT_NAME := lineage_r7
+PRODUCT_DEVICE := r7
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-G970F
+PRODUCT_MODEL := SM-N770F
 PRODUCT_MANUFACTURER := samsung
-
+PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
