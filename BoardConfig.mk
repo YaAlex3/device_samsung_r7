@@ -25,7 +25,7 @@ DEVICE_PATH := device/samsung/r7
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
 ## Display
-TARGET_SCREEN_DENSITY := 480
+TARGET_SCREEN_DENSITY := 420
 
 ## Kernel
 TARGET_KERNEL_CONFIG := exynos9810-r7_defconfig
