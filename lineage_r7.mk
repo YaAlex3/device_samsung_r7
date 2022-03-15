@@ -40,3 +40,5 @@ PRODUCT_MODEL := SM-N770F
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+$(call inherit-product, vendor/yaalex/security/sign.mk)
