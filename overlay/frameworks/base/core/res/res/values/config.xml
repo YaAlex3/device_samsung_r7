@@ -44,4 +44,10 @@
     <string name="config_mainBuiltInDisplayCutout">M 0,0 M 0,11.80952380952381 a 10.28571428571429,10.28571428571429 0 1,0 0,20.57142857142857 a 10.28571428571429,10.28571428571429 0 1,0 0,-20.57142857142857 Z @dp</string>
     <!-- Enable system navigation keys. -->
     <bool name="config_supportSystemNavigationKeys">true</bool>
+    <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
+    <integer-array name="config_udfps_sensor_props">
+        <item>540</item>
+        <item>2100</item>
+        <item>150</item>
+    </integer-array>
 </resources>

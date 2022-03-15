@@ -16,5 +16,5 @@
 */
 -->
 <resources>
-    <dimen name="status_bar_height_portrait">6.701935mm</dimen>
+<dimen name="status_bar_height_portrait">85.0px</dimen>
 </resources>
