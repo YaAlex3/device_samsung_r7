@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_r7.mk
+    $(LOCAL_DIR)/aosp_r7.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_r7-eng \
-    lineage_r7-user \
-    lineage_r7-userdebug
+    aosp_r7-eng \
+    aosp_r7-user \
+    aosp_r7-userdebug
