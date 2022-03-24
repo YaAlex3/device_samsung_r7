@@ -45,4 +45,11 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
+# Use the latest approved GMS identifiers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=r7naxx \
+    PRIVATE_BUILD_DESC="r7naxx-user 12 SP1A.210812.016 N770FXXS8FVA2 release-keys"
+
+BUILD_FINGERPRINT := samsung/r7naxx/r7:12/SP1A.210812.016/N770FXXS8FVA2:user/release-keys
+
 $(call inherit-product, vendor/yaalex/security/sign.mk)
