@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_r7.mk
+    $(LOCAL_DIR)/awaken_r7.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_r7-eng \
-    aosp_r7-user \
-    aosp_r7-userdebug
+    awaken_r7-eng \
+    awaken_r7-user \
+    awaken_r7-userdebug
